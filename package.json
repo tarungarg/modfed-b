@@ -1,0 +1,17 @@
+{
+  "name": "rateApp",
+  "version": "1.0.0",
+  "private": true,
+  "files": [
+    "dist",
+    "types"
+  ],
+  "scripts": {
+    "start": "serve dist -p 3002",
+    "build": "webpack --mode production",
+    "dev": "concurrently \"webpack --watch\" \"serve dist -p 3002\""
+  },
+  "dependencies": {
+  },
+  "devDependencies": {}
+}
