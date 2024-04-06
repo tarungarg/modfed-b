@@ -6,6 +6,7 @@ const Accural = lazy(
   () => import("billingApp/accural")
 ) as unknown as typeof AccuralProps;
 
+// I am post config changes
 const App = () => {
   return (
     <ul>
